@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .top-header-banner {
+    background-image: url(../image/Header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 720px;
+  }
+
+  .top-desc-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 720px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .top-header-title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #091e42;
+    width: 370px;
+  }
+
+  .top-header-desc {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
